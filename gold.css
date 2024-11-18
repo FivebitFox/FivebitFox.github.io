@@ -1,0 +1,21 @@
+body {
+	background-color:#E4D4C8;
+	font-family: Arial;
+}
+h1 {
+	color:#291D14;
+	padding-top:50px;
+	padding-left:2em;
+}
+h3 {
+	color:#291D14;
+	padding-left:2em;
+}
+p {
+	color:#443122;
+	padding-left:3em;
+}
+main {
+	margin-left:100px;
+	padding-top:1em;
+}
