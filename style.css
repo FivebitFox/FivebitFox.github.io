@@ -1,0 +1,129 @@
+body {
+	background-color:#FFEBAD;
+	font-family: Arial;
+}
+header {
+	background-color:white;
+	padding-bottom:1em;
+}
+h1 {
+	color:#190F07;
+	padding-top:50px;
+	padding-left:2em;
+}
+h1 a {
+	color:#190F07;
+	text-decoration:none;
+}
+h3 {
+	color:#190F07;
+	padding-left:2em;
+}
+h3 a {
+	color:#190F07;
+}
+p {
+	color:#3D2D21;
+	padding-left:3em;
+}
+p a {
+	color:#190F07;
+}
+main {
+	background-color:white;
+	padding-top:1em;
+	padding-bottom:2em;
+}
+footer {
+	background-color:white;
+	text-align:center;
+	color:#190F07;
+	font-size:80%;
+	padding:1em;
+}
+footer a {
+	color:#190F07;
+}
+nav {
+	text-align:center;
+}
+nav a {
+	color:#3D2D21;
+}
+nav ul {
+	list-style-type:none;
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row;
+	margin:0;
+}
+nav li {
+	width:100%;
+}
+.boxes {
+	display:flex;
+	flex-wrap:wrap;
+	flex-flow:row;
+	list-style-type:none;
+	li {
+		width:100%;
+		padding-left:10px;
+		padding-right:10px;
+	}
+}
+.ind {
+	text-indent:2em;
+}
+.ind-hard {
+	text-indent:4em;
+}
+.gem-img {
+	width:21px;
+	height:23px;
+}
+.bar-img {
+	width:28px;
+	height:22px;
+}
+.ring-silver-img {
+	width:18px;
+	height:20px;
+}
+.necklace-silver-img {
+	width:19px;
+	height:28px;
+}
+.bracelet-silver-img {
+	width:28px;
+	height:24px;
+}
+.ring-gold-img {
+	width:18px;
+	height:22px;
+}
+.necklace-gold-img {
+	width:20px;
+	height:27px;
+}
+.bracelet-gold-img {
+	width:19px;
+	height:23px;
+}
+.amulet-img {
+	width:15px;
+	height:12px;
+}
+@media (max-width: 1024px) {
+	.boxes {
+		display:flex;
+		flex-wrap:wrap;
+		flex-flow:column;
+		list-style-type:none;
+		margin-right:2em;
+		li {
+			width:100%;
+			padding-left:10px;
+			padding-right:10px;
+		}
+	}
+}
