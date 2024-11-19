@@ -126,4 +126,9 @@ nav li {
 			padding-right:10px;
 		}
 	}
+	header {
+		background-color:white;
+		padding-bottom:1em;
+		width:100%;
+	}
 }
