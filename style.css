@@ -60,6 +60,16 @@ nav ul {
 nav li {
 	width:100%;
 }
+span {
+	display:flex;
+	padding-left:20px;
+}
+span p {
+	padding-left:1em !important;
+}
+span img {
+	align-self:center !important;
+}
 .boxes {
 	display:flex;
 	flex-wrap:wrap;
@@ -112,6 +122,15 @@ nav li {
 .amulet-img {
 	width:15px;
 	height:12px;
+}
+.neutral {
+	color:#0000CC !important;
+}
+.profit {
+	color:#009900 !important;
+}
+.loss {
+	color:#AA0000 !important;
 }
 @media (max-width: 1024px) {
 	.boxes {
