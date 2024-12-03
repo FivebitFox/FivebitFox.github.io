@@ -132,6 +132,11 @@ span img {
 .loss {
 	color:#AA0000 !important;
 }
+.audio {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
 @media (max-width: 1024px) {
 	.boxes {
 		display:flex;
